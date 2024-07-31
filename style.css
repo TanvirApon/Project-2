@@ -1,5 +1,6 @@
 
-
+/* CSS For Wide Screen CSS Code Starts from Here
+ Which minimum screen size 1200px */
 @media (min-width:1200px) {
 
 /* Default CSS Starts From Here */
@@ -9,7 +10,7 @@
 }
          
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     background-color: white;
     margin: 0;
 }
@@ -22,7 +23,6 @@ body {
       
 .container {
     width: 1000px;
-    margin: 0 165px;
 }
     
 /* Default CSS Ends Here */
@@ -31,35 +31,145 @@ body {
 /* About Section Starts From Here */
 .about{
     background-color:#6eaa43;
-    height: 400px;
+    height: 860px;
+    margin-bottom: 20px;
 }
 
+.about .about-inside{
+ width:1200px ;
+ padding:40px;
+ margin:0 auto;
+}
 
+.about-header{
 
-.about .about-inside .header{
+}
+.about .about-inside .about-header .header{
     float: left;
     color: White;
-    font-size: 20px;
+    font-size: 24px;
 }
 
-.about .about-inside .prospect{
-    float: left;
-    
-}
-
-.about .about-inside .prospect img{
+.about .about-inside .about-header .prospect{
     float: right;
+    margin-bottom: 10px;    
+}
+
+
+
+.about .about-inside .about-header .prospect .prospect-image{
+    float: left; 
+}
+
+.about .about-inside .about-header .prospect .prospect-image img{
     height:40px;
     width: 40px;
+    margin-right:5px;   
 }
 
-.about .about-inside .prospect-header{
+
+
+.about .about-inside .about-header .prospect .prospect-header{
     float: left;
-    color: white;
-    font-size: 20px;
-    line-height: 10px;
+    color: White;
+    line-height: 40px;
+    font-size: 24px;
 }
 
+
+
+
+.about .about-inside .section-1{
+
+    margin: 40px -25px;
+}
+
+.about .about-inside .section-1 .lead-generation{
+    float: left;
+    width: 32%;
+    padding:20px;
+}
+
+
+.about .about-inside .section-1 .lead-generation .lead-image img{
+    margin: 6px 95px;
+   
+}
+
+
+.about .about-inside .section-1 .lead-generation .lead-heading{
+    color: white; 
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+
+.about .about-inside .section-1 .lead-generation .lead-content{
+    color: white;
+    font-size: 16px; 
+}
+
+
+/* Lead Importance starts from here */
+
+.about .about-inside .section-1 .lead-importance{
+    float: left;
+    width: 32%;
+    padding:20px;
+}
+
+
+.about .about-inside .section-1 .lead-importance .importance-image img{
+    margin: 6px 95px;
+   
+}
+
+
+.about .about-inside .section-1 .lead-importance .importance-heading{
+    color: white; 
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+
+.about .about-inside .section-1 .lead-importance .importance-content{
+    color: white;
+    font-size: 16px; 
+}
+/* Lead Importance ends here */
+
+
+
+/* Lead technique starts from here */
+.about .about-inside .section-1 .lead-technique{
+    float: left;
+    width: 32%;
+    padding:20px;
+}
+
+
+.about .about-inside .section-1 .lead-technique .technique-image img{
+    margin: 6px 95px;
+   
+}
+
+
+.about .about-inside .section-1 .lead-technique .technique-heading{
+    color: white; 
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+
+.about .about-inside .section-1 .lead-technique .technique-content{
+    color: white;
+    font-size: 16px; 
+}
+
+/* Lead Importance ends here */
 
 
 
@@ -69,6 +179,6 @@ body {
 
 
 /* About Section Ends Here */
-
-
 }
+
+/* Wide Screen Ends Here */
