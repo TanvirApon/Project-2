@@ -22,7 +22,7 @@ body {
 }
       
 .container {
-    width: 1000px;
+    width: 1200px;
 }
     
 /* Default CSS Ends Here */
@@ -41,13 +41,12 @@ body {
  margin:0 auto;
 }
 
-.about-header{
 
-}
+
 .about .about-inside .about-header .header{
     float: left;
     color: White;
-    font-size: 24px;
+    font-size: 35px;
 }
 
 .about .about-inside .about-header .prospect{
@@ -69,111 +68,143 @@ body {
 
 
 
-.about .about-inside .about-header .prospect .prospect-header{
+.about .about-inside .about-header .prospect .prospect-header {
     float: left;
     color: White;
     line-height: 40px;
-    font-size: 24px;
+    font-size: 35px;
+}
+
+.wrapper{
+
+
+}
+
+.wrapper .section-1{
+ margin-top: 95px;
+ margin-bottom: 55px;
 }
 
 
+/* Lead-Generation Starts From Here */
 
-
-.about .about-inside .section-1{
-
-    margin: 40px -25px;
+.wrapper .section-1 .lead-generation {
+ float: left;
+ width: 28%;
 }
 
-.about .about-inside .section-1 .lead-generation{
+.wrapper .section-1 .lead-generation .lead-image img {
+    margin-left: 80px;
+}
+
+
+.wrapper .section-1 .lead-generation .lead-heading  {
+   color:white;
+   font-weight: bold;
+   font-size: 22px;
+   margin-top: 20px;
+}
+
+
+.wrapper .section-1 .lead-generation .lead-content  {
+    color:white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Lead Generation Ends Here */
+
+
+
+/* Lead-Importance starts from here */
+.wrapper .section-1 .lead-importance {
     float: left;
-    width: 32%;
-    padding:20px;
+    width: 28%;
+    margin-left: 65px;
+    margin-top: -12px;
 }
-
-
-.about .about-inside .section-1 .lead-generation .lead-image img{
-    margin: 6px 95px;
    
+.wrapper .section-1 .lead-importance .importance-image img {
+    margin-left: 80px;
 }
-
-
-.about .about-inside .section-1 .lead-generation .lead-heading{
-    color: white; 
+     
+.wrapper .section-1 .lead-importance .importance-heading  {
+    color:white;
     font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 35px;
+    font-size: 22px;
+    margin-top: 20px;
 }
-
-
-.about .about-inside .section-1 .lead-generation .lead-content{
-    color: white;
-    font-size: 16px; 
+      
+.wrapper .section-1 .lead-importance .importance-content  {
+    color:white;
+    font-size: 16px;
+    margin-top: 20px;
 }
+/* Lead Importance Ends here */
 
 
-/* Lead Importance starts from here */
 
-.about .about-inside .section-1 .lead-importance{
+/* Lead Techniques starts from here */
+
+.wrapper .section-1 .lead-techniques {
     float: left;
-    width: 32%;
-    padding:20px;
+    width: 28%;
+    margin-left: 65px;
+    margin-top: 0px;
 }
-
-
-.about .about-inside .section-1 .lead-importance .importance-image img{
-    margin: 6px 95px;
    
+.wrapper .section-1 .lead-techniques .techniques-image img {
+    margin-left: 80px;
 }
-
-
-.about .about-inside .section-1 .lead-importance .importance-heading{
-    color: white; 
+   
+   
+.wrapper .section-1 .lead-techniques .techniques-heading  {
+    color:white;
     font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 35px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+   
+   
+.wrapper .section-1 .lead-techniques .techniques-content  {
+    color:white;
+    font-size: 16px;
+    margin-top: 20px;
 }
 
-
-.about .about-inside .section-1 .lead-importance .importance-content{
-    color: white;
-    font-size: 16px; 
-}
-/* Lead Importance ends here */
+/* Lead Techniques ends here */
 
 
 
-/* Lead technique starts from here */
-.about .about-inside .section-1 .lead-technique{
+/* Lead-Generation Starts From Here */
+
+.wrapper .section-2 .generate-lead {
     float: left;
-    width: 32%;
-    padding:20px;
+    width: 28%;
+    margin-left: 0px;
+    margin-top: 10px;
 }
-
-
-.about .about-inside .section-1 .lead-technique .technique-image img{
-    margin: 6px 95px;
    
+.wrapper .section-2 .generate-lead .generate-image img {
+       margin-left: 80px;
 }
-
-
-.about .about-inside .section-1 .lead-technique .technique-heading{
-    color: white; 
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 35px;
+   
+   
+.wrapper .section-2 .generate-lead .generate-heading  {
+      color:white;
+      font-weight: bold;
+      font-size: 22px;
+      margin-top: 20px;
 }
-
-
-.about .about-inside .section-1 .lead-technique .technique-content{
-    color: white;
-    font-size: 16px; 
+   
+   
+.wrapper .section-2 .generate-lead .generate-content  {
+       color:white;
+       font-size: 16px;
+       margin-top: 20px;
 }
-
-/* Lead Importance ends here */
-
-
-
-
+   
+   /* Lead Generation Ends Here */
 
 
 
