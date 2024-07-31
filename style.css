@@ -2,13 +2,12 @@
 
 @media (min-width:1200px) {
 
-/* Some Default CSS style */
+/* Default CSS Starts From Here */
 
 * {
     box-sizing: border-box;
 }
-      
-    
+         
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
@@ -22,11 +21,11 @@ body {
 }
       
 .container {
-    width: 950px;
-    margin: 0 auto;
+    width: 1000px;
+    margin: 0 165px;
 }
     
-
+/* Default CSS Ends Here */
 
 
 /* About Section Starts From Here */
@@ -35,10 +34,37 @@ body {
     height: 400px;
 }
 
-.about :nth-child(1n){
+
+
+.about .about-inside .header{
+    float: left;
+    color: White;
+    font-size: 20px;
+}
+
+.about .about-inside .prospect{
+    float: left;
+    
+}
+
+.about .about-inside .prospect img{
+    float: right;
+    height:40px;
+    width: 40px;
+}
+
+.about .about-inside .prospect-header{
     float: left;
     color: white;
+    font-size: 20px;
+    line-height: 10px;
 }
+
+
+
+
+
+
 
 
 
