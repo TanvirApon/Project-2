@@ -204,7 +204,7 @@ body {
        margin-top: 20px;
 }
    
-   /* Lead Generation Ends Here */
+/* Lead Generation Ends Here */
 
 
 
@@ -232,7 +232,7 @@ body {
     font-size: 16px;
     margin-top: 20px;
 }
-/* Lead Importance Ends here */
+/* Competition Lead  Ends here */
 
 
 /* Email Lead starts from here */
@@ -266,3 +266,225 @@ body {
 }
 
 /* Wide Screen Ends Here */
+
+
+
+
+/* Mobile Screen CSS Starts From Here */
+@media (max-width: 768px) {
+
+/* Default CSS Starts From Here */
+
+* {
+    box-sizing: border-box;
+}
+         
+body {
+    font-family: Helvetica;
+    background-color: white;
+    margin: 0;
+}
+      
+  
+.container {
+    width: 1200px;
+}
+    
+/* Default CSS Ends Here */
+
+
+/* About Section Starts From Here */
+.about{
+    background-color:#6eaa43;
+    height: 1400px;
+    margin-bottom: 20px;
+}
+
+.about .about-inside .about-header{
+    padding: 20px 8px;
+}
+
+
+
+.about .about-inside .about-header .header{
+    float: left;
+    color: White;
+    font-size: 35px;
+}
+
+.about .about-inside .about-header .prospect{
+    float: right;
+    margin-bottom: 10px;    
+}
+
+
+.about .about-inside .about-header .prospect .prospect-image{
+    float: left; 
+}
+
+.about .about-inside .about-header .prospect .prospect-image img{
+    height:40px;
+    width: 40px;
+    margin-right: 96px; 
+}
+
+.about .about-inside .about-header .prospect .prospect-header {
+    display:none;
+}
+
+.about .about-inside .wrapper{
+    padding: 80px;
+}
+
+/* Lead-Generation Starts From Here */
+
+.wrapper .section-1 .lead-generation .lead-image img {
+    display: block;
+    margin: 0 auto;
+}
+   
+   
+   .wrapper .section-1 .lead-generation .lead-heading  {
+      color:white;
+      font-weight: bold;
+      font-size: 22px;
+      margin: 20px  115px;
+   }
+   
+   
+   .wrapper .section-1 .lead-generation .lead-content  {
+       color:white;
+       font-size: 16px;
+       margin: 20px 110px;
+   }
+   
+   /* Lead Generation Ends Here */
+
+
+
+ /* Lead-Importance starts from here */
+
+   
+.wrapper .section-1 .lead-importance .importance-image img {
+    display: block;
+    margin: 0 auto;
+}
+     
+.wrapper .section-1 .lead-importance .importance-heading  {
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 20px  115px;
+}
+      
+.wrapper .section-1 .lead-importance .importance-content  {
+    color:white;
+    font-size: 16px;
+    margin: 20px 110px;
+/* Lead Importance Ends here */
+
+}
+
+
+/* Lead Techniques starts from here */
+
+.wrapper .section-1 .lead-techniques .techniques-image img {
+    display: block;
+    margin: 0 auto;
+}
+   
+   
+.wrapper .section-1 .lead-techniques .techniques-heading  {
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 20px  115px;
+}
+   
+   
+.wrapper .section-1 .lead-techniques .techniques-content  {
+    color:white;
+    font-size: 16px;
+    margin: 20px 110px;
+}
+
+/* Lead Techniques ends here */
+
+
+/* Lead-Generation Starts From Here */
+
+.wrapper .section-2 .generate-lead .generate-image img {
+     display: block;
+     margin: 0 auto;
+}
+   
+   
+.wrapper .section-2 .generate-lead .generate-heading  {
+      color:white;
+      font-weight: bold;
+      font-size: 22px;
+      margin: 20px  115px;
+}
+   
+   
+.wrapper .section-2 .generate-lead .generate-content  {
+       color:white;
+       font-size: 16px;
+       margin: 20px 110px;
+}
+   
+/* Lead Generation Ends Here */
+
+
+/* Competition Lead starts from here */
+   
+.wrapper .section-2 .competition-lead .competition-image img {
+     display: block;
+     margin: 0 auto;
+}
+     
+.wrapper .section-2 .competition-lead .competition-heading  {
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 20px  115px;
+}
+      
+.wrapper .section-2 .competition-lead .competition-content  {
+    color:white;
+    font-size: 16px;
+    margin: 20px 110px;
+}
+/* Competition Lead  Ends here */
+
+
+/* Email Lead starts from here */
+
+   
+.wrapper .section-2 .email-lead .email-image img {
+    display: block;
+     margin: 0 auto;
+}
+     
+.wrapper .section-2 .email-lead .email-heading  {
+    color:white;
+    font-weight: bold;
+    margin: 20px  115px;
+}
+      
+.wrapper .section-2 .email-lead .email-content  {
+    color:white;
+    font-size: 16px;
+    margin: 20px 110px;
+   
+}
+/* Email Lead  Ends here */
+
+
+
+
+
+
+
+}
+/* Mobile Screen CSS Ends Here */
