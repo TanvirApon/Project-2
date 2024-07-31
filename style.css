@@ -208,6 +208,59 @@ body {
 
 
 
+/* Competition Lead starts from here */
+.wrapper .section-2 .competition-lead {
+    float: left;
+    width: 28%;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+   
+.wrapper .section-2 .competition-lead .competition-image img {
+    margin-left: 80px;
+}
+     
+.wrapper .section-2 .competition-lead .competition-heading  {
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 20px;
+}
+      
+.wrapper .section-2 .competition-lead .competition-content  {
+    color:white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+/* Lead Importance Ends here */
+
+
+/* Email Lead starts from here */
+.wrapper .section-2 .email-lead {
+    float: left;
+    width: 28%;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+   
+.wrapper .section-2 .email-lead .email-image img {
+    margin-left: 80px;
+}
+     
+.wrapper .section-2 .email-lead .email-heading  {
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 20px;
+}
+      
+.wrapper .section-2 .email-lead .email-content  {
+    color:white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+/* Email Lead  Ends here */
+
 
 /* About Section Ends Here */
 }
