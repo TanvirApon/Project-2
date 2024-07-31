@@ -120,7 +120,7 @@ body {
 .wrapper .section-1 .lead-importance {
     float: left;
     width: 28%;
-    margin-left: 65px;
+    margin-left: 95px;
     margin-top: -12px;
 }
    
@@ -147,7 +147,7 @@ body {
 /* Lead Techniques starts from here */
 
 .wrapper .section-1 .lead-techniques {
-    float: left;
+    float: right;
     width: 28%;
     margin-left: 65px;
     margin-top: 0px;
@@ -212,7 +212,7 @@ body {
 .wrapper .section-2 .competition-lead {
     float: left;
     width: 28%;
-    margin-left: 65px;
+    margin-left: 90px;
     margin-top: 20px;
 }
    
@@ -237,7 +237,7 @@ body {
 
 /* Email Lead starts from here */
 .wrapper .section-2 .email-lead {
-    float: left;
+    float: right;
     width: 28%;
     margin-left: 65px;
     margin-top: 20px;
@@ -251,13 +251,13 @@ body {
     color:white;
     font-weight: bold;
     font-size: 22px;
-    margin-top: 20px;
+    margin-top: 35px;
 }
       
 .wrapper .section-2 .email-lead .email-content  {
     color:white;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 /* Email Lead  Ends here */
 
@@ -479,10 +479,6 @@ body {
    
 }
 /* Email Lead  Ends here */
-
-
-
-
 
 
 
