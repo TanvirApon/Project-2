@@ -41,12 +41,11 @@ body {
     margin-bottom: 10px;
 } 
 
-
-
 .about .about-inside .about-header .header{
     float: left;
     color: White;
-    font-size: 35px;
+    font-size: 45px;
+    
 }
 
 .about .about-inside .about-header .prospect{
@@ -54,42 +53,43 @@ body {
     margin-bottom: 10px;    
 }
 
-
-
 .about .about-inside .about-header .prospect .prospect-image{
     float: left; 
 }
 
 .about .about-inside .about-header .prospect .prospect-image img{
-    height:40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     margin-right:5px;   
 }
-
 
 
 .about .about-inside .about-header .prospect .prospect-header {
     float: left;
     color: White;
-    line-height: 40px;
-    font-size: 35px;
+    line-height: 50px;
+    font-size: 25px;
+    margin-left: 15px
 }
 
 .wrapper{
     margin:0px -20px;
-    justify-items: center;
+    
 }
 
 .wrapper .card{
     float: left;
     width: 33.33%;
     padding: 20px 20px;
-    height: 320px;
+    height: 300px;
+   
 }
 
 .wrapper .card img{
     display: block;
-    margin: 10px auto;    
+    margin: 0px auto; 
+    height: 40px;
+    width: 40px;  
 }
 
 .wrapper .card .header{
@@ -97,6 +97,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 20px;
+    margin-top: 15px;
 }
   
 .wrapper .card .content{
@@ -104,11 +105,6 @@ body {
     font-size: 16x;
   
 }
-
-
-
-
-
 
 
 
@@ -153,8 +149,72 @@ body {
 
 
 /* Mobile Screen CSS Starts From Here */
-@media (min-width: 375px) and (max-width:500px) {
+@media (min-width: 320px) and (max-width:430px) {
 
+
+/* Default CSS Starts From Here */
+
+* {
+    box-sizing: border-box;
+}
+         
+body {
+    font-family: Helvetica;
+    background-color: white;
+    margin: 0;
+}
+      
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+      
+.container {
+    padding:40px;
+    margin:0 auto;
+}
+    
+/* Default CSS Ends Here */
+
+
+/* About Section Starts From Here */
+.about{
+    background-color:#6eaa43;
+   
+}
+
+.about .about-inside .about-header{
+
+   
+} 
+
+.about .about-inside .about-header .header{
+    float: left;
+    color: White;
+    font-size: 30px;
+   
+}
+
+.about .about-inside .about-header .prospect{
+    float: right;
+    margin-bottom: 10px;    
+}
+
+.about .about-inside .about-header .prospect .prospect-image{
+    float: left; 
+}
+
+.about .about-inside .about-header .prospect .prospect-image img{
+    height: 40px;
+    width: 40px;
+}
+
+
+.about .about-inside .about-header .prospect .prospect-header {
+   display: none;
+
+}
 
 
 }
