@@ -1,0 +1,398 @@
+
+/* CSS For Wide Screen CSS Code Starts from Here
+ Which minimum screen size 1200px */
+@media (min-width:1200px) {
+
+/* Default CSS Starts From Here */
+
+* {
+    box-sizing: border-box;
+}
+         
+body {
+    font-family: Helvetica;
+    background-color: white;
+    margin: 0;
+}
+      
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+      
+.container {
+    width:1200px ;
+    padding:40px;
+    margin:0 auto;
+}
+    
+/* Default CSS Ends Here */
+
+
+/* About Section Starts From Here */
+.about{
+    background-color:#6eaa43;
+    margin-bottom: 20px;
+}
+
+.about .about-inside .about-header{
+    margin-bottom: 10px;
+} 
+
+.about .about-inside .about-header .header{
+    float: left;
+    color: White;
+    font-size: 45px; 
+}
+
+.about .about-inside .about-header .prospect{
+    float: right;
+    margin-bottom: 10px;    
+}
+
+.about .about-inside .about-header .prospect .prospect-image{
+    float: left; 
+}
+
+.about .about-inside .about-header .prospect .prospect-image img{
+    height: 50px;
+    width: 50px;
+    margin-right:5px;   
+}
+
+
+.about .about-inside .about-header .prospect .prospect-header {
+    float: left;
+    color: White;
+    line-height: 50px;
+    font-size: 25px;
+    margin-left: 15px
+}
+
+
+/* About Card CSS Starts From Here */
+
+.wrapper{
+    margin:0px -20px;
+    
+}
+
+.wrapper .card{
+    float: left;
+    width: 33.33%;
+    padding: 0px 20px;
+    height: 300px;
+   
+}
+
+.wrapper .card img{
+    display: block;
+    margin: 0px auto; 
+    height: 40px;
+    width: 40px;  
+}
+
+.wrapper .card .header{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+  
+.wrapper .card .content{
+    color: white;
+    font-size: 16x;
+  
+}
+/* About Card CSS Ends Here */
+
+
+
+/* Client Section CSS Starts From Here */
+.client  .client-header{
+    margin-bottom: 80px;
+} 
+
+.client .client-header .header{
+    float: left;
+    color: #6eaa43;;
+    font-size: 45px; 
+}
+
+.client .client-header .prospect{
+    float: right;
+    margin-bottom: 10px;    
+}
+
+.client .client-header .prospect .prospect-image{
+    float: left; 
+}
+
+.client .client-header .prospect .prospect-image img{
+    height: 50px;
+    width: 50px;
+    margin-right:5px;   
+}
+
+
+.client .client-header .prospect .prospect-header {
+    float: left;
+    color: #3e423f;
+    line-height: 50px;
+    font-size: 25px;
+    margin-left: 15px
+}
+
+
+.client-card{
+    margin:0px -30px;
+}
+
+
+.client-card .card{
+   float: left;
+   width: 33.33%;
+   height: 320px;
+   text-align: center;
+   padding: 0px 30px;
+}
+
+
+.client-card .card img{
+  margin-bottom:10px;
+ }
+
+.client-card .card .place_name{
+    color:#6eaa43;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.client-card .card .name{
+    color:#3b3a38;
+    font-size: 18px;
+}
+
+.client-card .card .post{
+    font-size: 20px;
+    margin-bottom:38px;
+}
+
+
+.client-card .card .content{
+    font-size: 20px;
+    margin-bottom: 78px;
+  
+}
+
+
+/* Client Section CSS Ends Here */
+
+
+}
+
+/* Wide Screen Ends Here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+/* Mobile Screen CSS Starts From Here */
+@media (min-width: 320px) and (max-width:430px) {
+
+
+/* Default CSS Starts From Here */
+
+* {
+    box-sizing: border-box;
+}
+         
+body {
+    font-family: Helvetica;
+    background-color: white;
+    margin: 0;
+}
+      
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+      
+.container {
+    padding:40px;
+    margin:0 auto;
+}
+    
+/* Default CSS Ends Here */
+
+
+/* About Section Starts From Here */
+.about{
+    background-color:#6eaa43;
+   
+}
+
+
+
+.about .about-inside .about-header .header{
+    float: left;
+    color: White;
+    font-size: 30px;
+   
+}
+
+.about .about-inside .about-header .prospect{
+    float: right;
+    margin-bottom: 10px;    
+}
+
+.about .about-inside .about-header .prospect .prospect-image{
+    float: left; 
+}
+
+.about .about-inside .about-header .prospect .prospect-image img{
+    height: 40px;
+    width: 40px;
+}
+
+
+.about .about-inside .about-header .prospect .prospect-header {
+   display: none;
+
+}
+
+
+.wrapper .card img{
+    display: block;
+    margin: 0px auto;  
+}
+
+.wrapper .card .header{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+  
+.wrapper .card .content{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 40px;
+  
+}
+
+
+/* Client Section CSS Starts From Here */
+.client  .client-header{
+    margin-bottom: 80px;
+} 
+
+.client .client-header .header{
+    float: left;
+    color: #6eaa43;;
+    font-size: 30px; 
+}
+
+.client .client-header .prospect{
+    float: right;
+    margin-bottom: 10px;    
+}
+
+.client .client-header .prospect .prospect-image{
+    float: left; 
+}
+
+.client .client-header .prospect .prospect-image img{
+    height: 50px;
+    width: 50px;
+    margin-right:5px;   
+}
+
+
+.client .client-header .prospect .prospect-header {
+   display: none;
+}
+
+
+.client-card{
+    margin:0px -30px;
+}
+
+
+.client-card .card{
+   text-align: center;
+   padding: 0px 30px;
+}
+
+
+.client-card .card img{
+  margin-bottom:10px;
+ }
+
+.client-card .card .place_name{
+    color:#6eaa43;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.client-card .card .name{
+    color:#3b3a38;
+    font-size: 18px;
+}
+
+.client-card .card .post{
+    font-size: 20px;
+    margin-bottom:38px;
+}
+
+
+.client-card .card .content{
+    font-size: 20px;
+    margin-bottom: 25px;
+  
+}
+
+.client-card .card .end_logo{
+    margin-bottom: 30px;
+  
+}
+
+
+}
+/* Mobile Screen CSS Ends Here */
