@@ -228,54 +228,45 @@ body {
 
   margin-top:20px;
 
-
 }
-.image-section .image-card{
-  
+
+.image-section .image-card{ 
     float:left;
-
-}
-
-.image-section .image-card{
-
-    margin-top: 120px;
+    margin: 90px -10px;
 }
 
 
 .image-section .image-card .image{
-
     float:left;
-
+    padding:0px 10px;
 }
 
 
- .image-section .grey-image{
-
-   float:left;
+.image-section .grey-image{
+   float:right;
    background-image:url('images/container_bg_alt.png');
    background-repeat: no-repeat;
-   height: 1000px;
-   width: 600px;
-   margin-left: 40px;
+   height: 800px;
+   width: 500px;
    position:relative;   
- }
+}
 
 
 .image-section .grey-image .header{
+    float: left;
     position: absolute;
     top: 140px;
     left: 105px;
+    font-weight: bold;
     color:white;
-
-
 }
 
 
 .image-section .grey-image img{
+    float: right;
     position: absolute;
-    top: 10px;
-    left: 10px;
-
+    top: 130px;
+    left: 320px;
 }
 
 /* Image Section CSS ends here */
@@ -309,167 +300,277 @@ body {
      
     
     
-    /* Mobile Screen CSS Starts From Here */
-    @media (min-width: 320px) and (max-width:430px) {
+/* Mobile Screen CSS Starts From Here */
+@media (min-width: 320px) and (max-width:430px) {
     
+
+/* Default CSS Starts From Here */
     
-    /* Default CSS Starts From Here */
-    
-    * {
-        box-sizing: border-box;
-    }
+* {
+    box-sizing: border-box;
+}
              
-    body {
-        font-family: Helvetica;
-        background-color: white;
-        margin: 0;
-    }
+body {
+   
+    font-family: Helvetica;
+    background-color: white;
+    margin: 0;
+
+}
           
-    .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
+.clearfix::after {
+   
+    content: "";
+    clear: both;
+    display: table;
+
+}
           
-    .container {
-        padding:40px;
-        margin:0 auto;
-    }
+.container {
+    width: 100%;
+    padding:40px;
+    margin:0 auto;
+
+}
         
-    /* Default CSS Ends Here */
+/* Default CSS Ends Here */
     
     
-    /* About Section Starts From Here */
-    .about{
-        background-color:#6eaa43;
+/* About Section Starts From Here */
+.about{
+    
+    background-color:#6eaa43;
        
-    }
+}
     
     
     
-    .about .about-inside .about-header .header{
-        float: left;
-        color: White;
-        font-size: 30px;
+.about .about-inside .about-header .header{
+    
+    float: left;
+    color: White;
+    font-size: 30px;
        
-    }
+}
     
-    .about .about-inside .about-header .prospect{
-        float: right;
-        margin-bottom: 10px;    
-    }
+.about .about-inside .about-header .prospect{
     
-    .about .about-inside .about-header .prospect .prospect-image{
-        float: left; 
-    }
+    float: right;
+    margin-bottom: 10px;    
+}
     
-    .about .about-inside .about-header .prospect .prospect-image img{
-        height: 40px;
-        width: 40px;
-    }
+.about .about-inside .about-header .prospect .prospect-image{
     
+    float: left; 
+}
     
-    .about .about-inside .about-header .prospect .prospect-header {
-       display: none;
-    
-    }
+.about .about-inside .about-header .prospect .prospect-image img{
+   
+    height: 40px;
+    width: 40px;
+}
     
     
-    .wrapper .card img{
-        display: block;
-        margin: 0px auto;  
-    }
+.about .about-inside .about-header .prospect .prospect-header {
+   
+    display: none;
     
-    .wrapper .card .header{
-        color: white;
-        font-weight: bold;
-        font-size: 20px;
-        margin-bottom: 20px;
-        margin-top: 15px;
-    }
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.wrapper .card {
+    width: 100%;
+}
+    
+    
+.wrapper .card img{
+    
+    display: block;
+    margin: 0px auto;  
+
+}
+    
+.wrapper .card .header{
+    
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+
+}
       
-    .wrapper .card .content{
-        color: white;
-        font-size: 16px;
-        margin-bottom: 40px;
+.wrapper .card .content{
+    
+    color: white;
+    font-size: 16px;
+    margin-bottom: 40px;
       
-    }
+}
     
     
-    /* Client Section CSS Starts From Here */
-    .client  .client-header{
-        margin-bottom: 80px;
-    } 
+/* Client Section CSS Starts From Here */
+
+.client{
+
+  width: 100%;
+
+}
+.client  .client-header{
+   
+    margin-bottom: 80px;
+} 
     
-    .client .client-header .header{
-        float: left;
-        color: #6eaa43;;
-        font-size: 30px; 
-    }
+.client .client-header .header{
     
-    .client .client-header .prospect{
-        float: right;
-        margin-bottom: 10px;    
-    }
+    float: left;
+    color: #6eaa43;;
+    font-size: 30px; 
+}
     
-    .client .client-header .prospect .prospect-image{
-        float: left; 
-    }
+.client .client-header .prospect{
     
-    .client .client-header .prospect .prospect-image img{
-        height: 50px;
-        width: 50px;
-        margin-right:5px;   
-    }
+    float: right;
+    margin-bottom: 10px;    
+}
     
+.client .client-header .prospect .prospect-image{
     
-    .client .client-header .prospect .prospect-header {
-       display: none;
-    }
+    float: left; 
+}
     
+.client .client-header .prospect .prospect-image img{
     
-    .client-card{
-        margin:0px -30px;
-    }
-    
-    
-    .client-card .card{
-       text-align: center;
-       padding: 0px 30px;
-    }
+    height: 50px;
+    width: 50px;
+    margin-right:5px;   
+}
     
     
-    .client-card .card img{
-      margin-bottom:10px;
-     }
+.client .client-header .prospect .prospect-header {
     
-    .client-card .card .place_name{
-        color:#6eaa43;
-        font-weight:bold;
-        font-size: 20px;
-    }
-    
-    .client-card .card .name{
-        color:#3b3a38;
-        font-size: 18px;
-    }
-    
-    .client-card .card .post{
-        font-size: 20px;
-        margin-bottom:38px;
-    }
+    display: none;
+}
     
     
-    .client-card .card .content{
-        font-size: 20px;
-        margin-bottom: 25px;
+.client-card{
+    
+    margin:0px -30px;
+}
+    
+    
+.client-card .card{
+    
+    text-align: center;
+    padding: 0px 30px;
+}
+    
+    
+.client-card .card img{
+    
+    margin-bottom:10px;
+}
+    
+.client-card .card .place_name{
+    
+    color:#6eaa43;
+    font-weight:bold;
+    font-size: 20px;
+}
+    
+.client-card .card .name{
+    
+    color:#3b3a38;
+    font-size: 18px;
+}
+    
+.client-card .card .post{
+    
+    font-size: 20px;
+    margin-bottom:38px;
+}
+    
+    
+.client-card .card .content{
+    
+    font-size: 20px;
+    margin-bottom: 25px;
       
-    }
+}
     
-    .client-card .card .end_logo{
-        margin-bottom: 30px;
+.client-card .card .end_logo{
+    
+    margin-bottom: 30px;
       
-    }
+}
+   
+
+/* Image Section CSS starts from here */
+
+.image-section{
+
+    margin-top:20px;
+  
+}
+  
+.image-section .image-card{ 
+
+}
+  
+  
+.image-section .image-card .image{
+    float: left;
+
+}
+  
+  
+.image-section .grey-image{
+    background-image:url('images/container_bg_alt.png');
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 500px;
+    position:relative;   
+}
+  
+  
+.image-section .grey-image .header{
     
-    }
+    float: left;
+    position: absolute;
+    top: 140px;
+    left: 105px;
+    font-weight: bold;
+    color:white;
+}
+  
+  
+.image-section .grey-image img{
+
+    position: absolute;
+    top: 130px;
+    left: 320px;
+}
+  
+  /* Image Section CSS ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
     /* Mobile Screen CSS Ends Here */
