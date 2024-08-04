@@ -257,8 +257,14 @@ body {
     position: absolute;
     top: 140px;
     left: 105px;
-    font-weight: bold;
-    color:white;
+}
+
+.image-section .grey-image .header h5{
+
+   color: white;
+   font-weight:bold;
+   font-size: 10px;
+
 }
 
 
@@ -276,30 +282,46 @@ body {
     /* Wide Screen Ends Here */
     
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /* Mobile Screen set for some specific models of mobile
+ /* Mobile Screen set for some specific models of mobile
       
-       Iphone SE
-       Iphone XR
-       Iphone 12 pro
-       Iphone 14 pro Max
-       Pixel 7
-    
-    
-    */
+    Iphone SE
+    Iphone XR
+    Iphone 12 pro
+    Iphone 14 pro Max
+    Pixel 7
+      
+*/
      
-    
-    
+      
 /* Mobile Screen CSS Starts From Here */
 @media (min-width: 320px) and (max-width:430px) {
     
@@ -327,7 +349,6 @@ body {
 }
           
 .container {
-    width: 100%;
     padding:40px;
     margin:0 auto;
 
@@ -555,22 +576,6 @@ body {
 }
   
   /* Image Section CSS ends here */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
     /* Mobile Screen CSS Ends Here */
