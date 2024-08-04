@@ -444,7 +444,7 @@ body {
 }
 .client  .client-header{
    
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 } 
     
 .client .client-header .header{
@@ -520,14 +520,12 @@ body {
 .client-card .card .content{
     
     font-size: 20px;
-    margin-bottom: 25px;
-      
+    margin-bottom: 25px;     
 }
     
 .client-card .card .end_logo{
-    
-    margin-bottom: 30px;
-      
+
+    margin-bottom: 30px;  
 }
    
 
@@ -535,52 +533,49 @@ body {
 
 .image-section{
 
-    margin-top:20px;
-  
+    margin-top: 20px;
 }
-  
+
+
+
 .image-section .image-card{ 
     float: left;
-    width: 40px;
-    height: 40px;
-}
+    width: 400px;
+    margin:0px -5px;
+    margin-bottom: 20px;
 }
   
   
 .image-section .image-card .image{
     float: left;
+}
+
+.image-section .image-card .image img{
+    height: 70px;
+    width: 85px;
+    padding: 0px 4px;
 
 }
   
   
 .image-section .grey-image{
+    margin-top: 100px;
     background-image:url('images/container_bg_alt.png');
     background-repeat: no-repeat;
-    height: 800px;
-    width: 500px;
-    position:relative;   
+    height: 200px;
+    width: 600px;
+    position:relative;  
+    object-fit: cover;
+    margin-left: -50px;
 }
   
-  
-.image-section .grey-image .header{
-    
-    float: left;
-    position: absolute;
-    top: 140px;
-    left: 105px;
-    font-weight: bold;
-    color:white;
-}
-  
-  
-.image-section .grey-image img{
 
-    position: absolute;
-    top: 130px;
-    left: 320px;
-}
+
+  
+
+
   
   /* Image Section CSS ends here */
-
+}
 
     /* Mobile Screen CSS Ends Here */
