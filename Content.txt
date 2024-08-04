@@ -23,12 +23,7 @@ to accquire customer information, and
 being aware of both ethical and non-
 ethical practices..
 
-<<<<<<< HEAD
-HOW DOES PROSPECT SHOP
-GENERATE LEADS
-=======
 HOW DOES PROSPECT SHOP GENERATE LEADS
->>>>>>> origin/desktop
 The Prospect Shop uses a network
 of competition sites, to offer a
 tailored and results-drivenc
@@ -42,6 +37,9 @@ obtain customer information..
 ACQUIRE VIA EMAIL LEADS
 Send our targeted and personalised 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d5d57dd8787e2234cd2b149bcbc55a1d819bd779
 emails with a call-to-action link..
 
 
@@ -79,9 +77,4 @@ relationship based marketers, always
 enthisiastically looking for
 new innovative ways to add
 value to our business."
-
-
-
-=======
 emails with a call-to-action link..
->>>>>>> origin/desktop
