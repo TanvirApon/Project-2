@@ -78,3 +78,10 @@ enthisiastically looking for
 new innovative ways to add
 value to our business."
 emails with a call-to-action link..
+
+
+Address
+@Copyright 2007 - 2011 | The Prospect Shop Pty LTD |ABN 17 099 003 291 | Phone: (02) 9281 0299 | Contact Use
+ <div class="address">
+   &copy; Copyright 2007 - 2011 | The Prospect Shop Pty LTD | ABN 17 099 003 291 | Phone: (02) 9281 0299 | Contact Use
+ </div>

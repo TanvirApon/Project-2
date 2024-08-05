@@ -246,7 +246,7 @@ body {
    float:right;
    background-image:url('images/container_bg_alt.png');
    background-repeat: no-repeat;
-   height: 800px;
+   height: 200px;
    width: 500px;
    position:relative;   
 }
@@ -277,6 +277,25 @@ body {
 
 /* Image Section CSS ends here */
 
+/* Footer Section Starts From Here */
+
+.footer{
+
+ background-image: url('images/footer.png');
+ background-size: 100%;
+ background-position: 100% 100%;
+}
+
+.footer .address{
+  
+    color: white;
+    margin-top: 50px;
+
+}
+
+
+
+/* Footer Section Ends Here */
 
 
     
@@ -567,15 +586,14 @@ body {
     height: 200px;
     width: 100%;
     position:relative;  
-    margin-left: -50px;
-    background-size: cover;
+    background-size: 100%;
 }
   
 .image-section .grey-image .grey-inside{
  
     position: absolute;
-    top: 130px;
-    left: 90px; 
+    top: 90px;
+    left: 45px;
 }
 
 
