@@ -351,7 +351,7 @@ body {
 }
           
 .container {
-    width:auto;
+    width:100%;
     padding:40px;
     margin:0 auto;
 
@@ -440,7 +440,7 @@ body {
 
 .client{
 
-  width: 100%;
+    width: 100%;
 
 }
 .client  .client-header{
@@ -534,28 +534,29 @@ body {
 
 .image-section{
 
-    margin-top: 20px;
+    width: 100%;
 }
 
 
 
 .image-section .image-card{ 
     float: left;
-    width: 400px;
-    margin:0 -2px;
-    margin-bottom: 20px;
+    /* width: 400px; */
+    margin: -40px -2px;
+    /* margin-bottom: 20px; */
 }
   
   
 .image-section .image-card .image{
     float: left;
+    padding: 0 2px;
 }
 
 .image-section .image-card .image img{
-    height: 20px;
-    width: 40px;
-    padding: 0 2px;
 
+    height: 60px;
+    width: 70px;
+    
 }
   
   
@@ -564,9 +565,10 @@ body {
     background-image:url('images/container_bg_alt.png');
     background-repeat: no-repeat;
     height: 200px;
+    width: 100%;
     position:relative;  
     margin-left: -50px;
-    background-size: auto;
+    background-size: cover;
 }
   
 .image-section .grey-image .grey-inside{
