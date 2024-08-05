@@ -246,7 +246,7 @@ body {
    float:right;
    background-image:url('images/container_bg_alt.png');
    background-repeat: no-repeat;
-   height: 800px;
+   height: 200px;
    width: 500px;
    position:relative;   
 }
@@ -254,29 +254,48 @@ body {
 .image-section .grey-image .grey-inside{
  
     position: absolute;
-    top: 0px;
-    left: 13px;
- 
+    top: 140px;
+    left: 95px; 
 }
 
 
-.image-section .grey-image .grey-inside header{
- 
+.image-section .grey-image .grey-inside .header{
+    float: left;
     color:#ffffff;
-    float: left;
     font-weight: bold;
-    font-size: 18px; 
+    font-size: 22px; 
 }
 
 
-.image-section .grey-image .grey-inside image{
+.image-section .grey-image .grey-inside .image{
 
-    float: left;
+    float: right;
+    margin-left: 50px;
+    margin-top: -10px;
 
 }
 
 /* Image Section CSS ends here */
 
+/* Footer Section Starts From Here */
+
+.footer{
+
+ background-image: url('images/footer.png');
+ background-size: 100%;
+ background-position: 100% 100%;
+}
+
+.footer .address{
+  
+    color: white;
+    margin-top: 50px;
+
+}
+
+
+
+/* Footer Section Ends Here */
 
 
     
@@ -351,6 +370,7 @@ body {
 }
           
 .container {
+    width:100%;
     padding:40px;
     margin:0 auto;
 
@@ -439,7 +459,7 @@ body {
 
 .client{
 
-  width: 100%;
+    width: 100%;
 
 }
 .client  .client-header{
@@ -533,28 +553,29 @@ body {
 
 .image-section{
 
-    margin-top: 20px;
+    width: 100%;
 }
 
 
 
 .image-section .image-card{ 
     float: left;
-    width: 400px;
-    margin:0px -5px;
-    margin-bottom: 20px;
+    /* width: 400px; */
+    margin: -40px -2px;
+    /* margin-bottom: 20px; */
 }
   
   
 .image-section .image-card .image{
     float: left;
+    padding: 0 2px;
 }
 
 .image-section .image-card .image img{
-    height: 70px;
-    width: 85px;
-    padding: 0px 4px;
 
+    height: 60px;
+    width: 70px;
+    
 }
   
   
@@ -563,13 +584,34 @@ body {
     background-image:url('images/container_bg_alt.png');
     background-repeat: no-repeat;
     height: 200px;
-    width: 600px;
+    width: 100%;
     position:relative;  
-    object-fit: cover;
-    margin-left: -50px;
+    background-size: 100%;
 }
   
+.image-section .grey-image .grey-inside{
+ 
+    position: absolute;
+    top: 90px;
+    left: 45px;
+}
 
+
+.image-section .grey-image .grey-inside .header{
+    float: left;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 14px; 
+}
+
+
+.image-section .grey-image .grey-inside .image{
+
+    float: right;
+    margin-left: 50px;
+    margin-top: -10px;
+
+}
 
   
 
