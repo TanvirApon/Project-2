@@ -325,7 +325,7 @@ body {
      
       
 /* Mobile Screen CSS Starts From Here */
-@media (min-width: 320px) and (max-width:430px) {
+@media (min-width: 320px) and (max-width:43n0px) {
     
 
 /* Default CSS Starts From Here */
@@ -558,7 +558,7 @@ body {
     background-repeat: no-repeat;
     height: 800px;
     width: 500px;
-    position:relative;   
+    position:relative; 
 }
   
   
