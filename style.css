@@ -254,24 +254,24 @@ body {
 .image-section .grey-image .grey-inside{
  
     position: absolute;
-    top: 0px;
-    left: 13px;
- 
+    top: 140px;
+    left: 95px; 
 }
 
 
-.image-section .grey-image .grey-inside header{
- 
+.image-section .grey-image .grey-inside .header{
+    float: left;
     color:#ffffff;
-    float: left;
     font-weight: bold;
-    font-size: 18px; 
+    font-size: 22px; 
 }
 
 
-.image-section .grey-image .grey-inside image{
+.image-section .grey-image .grey-inside .image{
 
-    float: left;
+    float: right;
+    margin-left: 50px;
+    margin-top: -10px;
 
 }
 
@@ -325,7 +325,7 @@ body {
      
       
 /* Mobile Screen CSS Starts From Here */
-@media (min-width: 320px) and (max-width:43n0px) {
+@media (min-width: 320px) and (max-width:430px) {
     
 
 /* Default CSS Starts From Here */
@@ -351,6 +351,7 @@ body {
 }
           
 .container {
+    width:auto;
     padding:40px;
     margin:0 auto;
 
@@ -444,7 +445,7 @@ body {
 }
 .client  .client-header{
    
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 } 
     
 .client .client-header .header{
@@ -520,14 +521,12 @@ body {
 .client-card .card .content{
     
     font-size: 20px;
-    margin-bottom: 25px;
-      
+    margin-bottom: 25px;     
 }
     
 .client-card .card .end_logo{
-    
-    margin-bottom: 30px;
-      
+
+    margin-bottom: 30px;  
 }
    
 
@@ -535,52 +534,70 @@ body {
 
 .image-section{
 
-    margin-top:20px;
-  
+    margin-top: 20px;
 }
-  
+
+
+
 .image-section .image-card{ 
     float: left;
-    width: 40px;
-    height: 40px;
-}
+    width: 400px;
+    margin:0 -2px;
+    margin-bottom: 20px;
 }
   
   
 .image-section .image-card .image{
     float: left;
+}
+
+.image-section .image-card .image img{
+    height: 20px;
+    width: 40px;
+    padding: 0 2px;
 
 }
   
   
 .image-section .grey-image{
+    margin-top: 100px;
     background-image:url('images/container_bg_alt.png');
     background-repeat: no-repeat;
-    height: 800px;
-    width: 500px;
-    position:relative; 
+    height: 200px;
+    position:relative;  
+    margin-left: -50px;
+    background-size: auto;
 }
   
-  
-.image-section .grey-image .header{
-    
-    float: left;
-    position: absolute;
-    top: 140px;
-    left: 105px;
-    font-weight: bold;
-    color:white;
-}
-  
-  
-.image-section .grey-image img{
-
+.image-section .grey-image .grey-inside{
+ 
     position: absolute;
     top: 130px;
-    left: 320px;
+    left: 90px; 
 }
+
+
+.image-section .grey-image .grey-inside .header{
+    float: left;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 14px; 
+}
+
+
+.image-section .grey-image .grey-inside .image{
+
+    float: right;
+    margin-left: 50px;
+    margin-top: -10px;
+
+}
+
+  
+
+
   
   /* Image Section CSS ends here */
-
+}
 
     /* Mobile Screen CSS Ends Here */
