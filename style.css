@@ -27,6 +27,114 @@ body {
 }
         
 /* Default CSS Ends Here */
+
+
+/* form section css starts from here */
+.form-info{
+ 
+  background-image: url('images/body_bg.jpg');
+  background-repeat: no-repeat;
+  height: 880px;
+  background-size: 100%;
+  position: relative;
+
+}
+
+.form-info .header{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+}
+
+
+.form-info .header h5{
+  
+    color: #3e423f;
+    font-size: 25px;
+      
+}
+
+.form-info .form-section{
+
+   position: absolute;
+   background-image: url('images/container_bg.png');
+   background-repeat: no-repeat;
+   top: 0px;
+   right: 90px;
+   height: 880px;
+   width: 467px;
+
+}
+
+
+.form-info .form-section .prospect{
+
+   margin: 35px 90px;
+
+}
+
+.form-info .form-section .prospect .prospect-image {
+  float: left;
+}
+
+
+.form-info .form-section .prospect .prospect-image img {
+    height: 50px;
+    width: 50px;
+    margin-right:5px;   
+}
+
+
+.form-info .form-section .prospect .prospect-header {
+    float: left;
+    color: White;
+    line-height: 50px;
+    font-size: 25px;
+    margin-left: 15px
+}
+
+
+.form-section .info{
+  
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 14px;
+    text-align: center;
+}
+
+.form-info  form{
+    padding: 40px;
+}
+
+
+.form-info form label{
+
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px; 
+     
+}
+
+.form-info form input{
+
+  width: 337px;
+  padding: 12px 20px;
+  margin: 8px 0;
+   
+}
+
+.form-info .download{
+
+  background-color: #3e423f;
+  height: 34px;
+  width: 34px;
+}
+
+
+
+
+/* form section ends here */
     
     
 /* About Section Starts From Here */
@@ -227,7 +335,7 @@ body {
 
 .image-section{
 
-
+    margin-bottom: -44px;
 }
 
 .image-section .image-card{ 
@@ -281,9 +389,10 @@ body {
 
 .footer{
 
- background-image: url('images/footer.png');
+ background-image: url('images/footer_alt.png');
  background-size: 100%;
- background-position: 100% 100%;
+ height: 20px;
+
 }
 
 .footer .address{
