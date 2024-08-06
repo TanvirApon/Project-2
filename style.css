@@ -67,6 +67,11 @@ body {
 
 }
 
+.form-info .form-section .wrapper{
+
+    margin:-30px 11px;
+
+}
 
 .form-info .form-section .prospect{
 
@@ -95,7 +100,7 @@ body {
 }
 
 
-.form-section .info{
+.form-section .wrapper .info{
   
     color: #ffffff;
     font-size: 18px;
@@ -103,12 +108,12 @@ body {
     text-align: center;
 }
 
-.form-info  form{
+.form-info .wrapper form{
     padding: 40px;
 }
 
 
-.form-info form label{
+.form-info .wrapper form label{
 
   color: #ffffff;
   font-weight: bold;
@@ -116,7 +121,7 @@ body {
      
 }
 
-.form-info form input{
+.form-info .wrapper form input{
 
   width: 337px;
   padding: 12px 20px;
@@ -124,11 +129,42 @@ body {
    
 }
 
-.form-info .download{
+.form-info .wrapper .download{
 
   background-color: #3e423f;
-  height: 34px;
-  width: 34px;
+  height: 80px;
+  width: 300px;
+  margin-left: 50px;
+}
+
+.form-info .wrapper .download .down-header{
+    float: left;
+    color:#ffffff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.form-info .wrapper .download .image{
+    float: left;
+    padding: 20px;
+}
+
+
+.form-info .form-section .wrapper .privacy{
+    color:#ffffff;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.form-info .last-info{
+ 
+    position: absolute;
+    bottom: 100px;
+    left: 140px;
+    color:#3b3a38;
+
 }
 
 
@@ -486,7 +522,157 @@ body {
 }
         
 /* Default CSS Ends Here */
+
+
+/* form section css starts from here */
+.form-info{
+ 
+    background-image: url(images/body_bg.jpg);
+    background-repeat: no-repeat;
+    height: 360px;
+    background-size: cover;  
+  }
+  
+  .form-info .header{
+    position: absolute;
+    top: 0px;
+    left: 55px;  
+  }
+  
+  
+  .form-info .header h5{
     
+    color: #3e423f;
+    font-size: 25px;
+        
+}
+
+
+.form-info .about-section{
+  
+    margin-bottom: 10px;
+
+}
+  
+  .form-info .form-section{
+  
+     background-image: url('images/container_bg.png');
+     background-repeat: no-repeat;
+     top: 0px;
+     right: 90px;
+     height: 880px;
+     width: 467px;
+     display: none;
+}
+  
+  .form-info .form-section .wrapper{
+  
+      margin:-30px 11px;
+  
+  }
+  
+  .form-info .form-section .prospect{
+  
+     margin: 35px 90px;
+  
+  }
+  
+  .form-info .form-section .prospect .prospect-image {
+    float: left;
+  }
+  
+  
+  .form-info .form-section .prospect .prospect-image img {
+      height: 50px;
+      width: 50px;
+      margin-right:5px;   
+  }
+  
+  
+  .form-info .form-section .prospect .prospect-header {
+      float: left;
+      color: White;
+      line-height: 50px;
+      font-size: 25px;
+      margin-left: 15px
+  }
+  
+  
+  .form-section .wrapper .info{
+    
+      color: #ffffff;
+      font-size: 18px;
+      margin-left: 14px;
+      text-align: center;
+  }
+  
+  .form-info .wrapper form{
+      padding: 40px;
+  }
+  
+  
+  .form-info .wrapper form label{
+  
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px; 
+       
+  }
+  
+  .form-info .wrapper form input{
+  
+    width: 337px;
+    padding: 12px 20px;
+    margin: 8px 0;
+     
+  }
+  
+  .form-info .wrapper .download{
+  
+    background-color: #3e423f;
+    height: 80px;
+    width: 300px;
+    margin-left: 50px;
+  }
+  
+  .form-info .wrapper .download .down-header{
+      float: left;
+      color:#ffffff;
+      padding: 20px;
+      font-size: 20px;
+  }
+  
+  .form-info .wrapper .download .image{
+      float: left;
+      padding: 20px;
+  }
+  
+  
+  .form-info .form-section .wrapper .privacy{
+      color:#ffffff;
+      padding: 20px;
+      font-size: 15px;
+      text-align: center;
+  }
+  
+  
+  .form-info .last-info{
+   
+    position: absolute;
+    left: 46px;
+    color: #3b3a38;
+    top: 345px;
+    font-size: 11px;
+    text-align: center;
+  
+  }
+  
+  
+  
+  
+  /* form section ends here */
+      
+  
     
 /* About Section Starts From Here */
 .about{
@@ -661,7 +847,7 @@ body {
 /* Image Section CSS starts from here */
 
 .image-section{
-
+    padding: 0px;
     width: 100%;
 }
 
@@ -669,15 +855,13 @@ body {
 
 .image-section .image-card{ 
     float: left;
-    /* width: 400px; */
-    margin: -40px -2px;
-    /* margin-bottom: 20px; */
+    margin: -90px 40px;
 }
   
   
 .image-section .image-card .image{
     float: left;
-    padding: 0 2px;
+    padding: 0 1px;
 }
 
 .image-section .image-card .image img{
@@ -701,8 +885,8 @@ body {
 .image-section .grey-image .grey-inside{
  
     position: absolute;
-    top: 90px;
-    left: 45px;
+    top: 95px;
+    left: 100px;
 }
 
 
