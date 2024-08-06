@@ -30,7 +30,7 @@ body {
 
 
 /* form section css starts from here */
-.form-info{
+.form-about{
  
   background-image: url('images/body_bg.jpg');
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@ body {
 
 }
 
-.form-info .header{
+.form-about .header{
     position: absolute;
     top: 200px;
     left: 200px;
@@ -48,14 +48,23 @@ body {
 }
 
 
-.form-info .header h5{
+.form-about .header h5{
   
     color: #3e423f;
     font-size: 25px;
       
 }
 
-.form-info .form-section{
+.form-about .last-info{
+ 
+    position: absolute;
+    bottom: 100px;
+    left: 140px;
+    color:#3b3a38;
+
+}
+
+.form-section{
 
    position: absolute;
    background-image: url('images/container_bg.png');
@@ -67,31 +76,31 @@ body {
 
 }
 
-.form-info .form-section .wrapper{
+.form-section .wrapper{
 
     margin:-30px 11px;
 
 }
 
-.form-info .form-section .prospect{
+.form-section .prospect{
 
    margin: 35px 90px;
 
 }
 
-.form-info .form-section .prospect .prospect-image {
+.form-section .prospect .prospect-image {
   float: left;
 }
 
 
-.form-info .form-section .prospect .prospect-image img {
+.form-section .prospect .prospect-image img {
     height: 50px;
     width: 50px;
     margin-right:5px;   
 }
 
 
-.form-info .form-section .prospect .prospect-header {
+.form-section .prospect .prospect-header {
     float: left;
     color: White;
     line-height: 50px;
@@ -108,12 +117,12 @@ body {
     text-align: center;
 }
 
-.form-info .wrapper form{
+.form-section .wrapper form{
     padding: 40px;
 }
 
 
-.form-info .wrapper form label{
+.form-section .wrapper form label{
 
   color: #ffffff;
   font-weight: bold;
@@ -121,7 +130,7 @@ body {
      
 }
 
-.form-info .wrapper form input{
+.form-section .wrapper form input{
 
   width: 337px;
   padding: 12px 20px;
@@ -129,7 +138,7 @@ body {
    
 }
 
-.form-info .wrapper .download{
+.form-section .wrapper .download{
 
   background-color: #3e423f;
   height: 80px;
@@ -137,39 +146,25 @@ body {
   margin-left: 50px;
 }
 
-.form-info .wrapper .download .down-header{
+.form-section .wrapper .download .down-header{
     float: left;
     color:#ffffff;
     padding: 20px;
     font-size: 20px;
 }
 
-.form-info .wrapper .download .image{
+.form-section .wrapper .download .image{
     float: left;
     padding: 20px;
 }
 
 
-.form-info .form-section .wrapper .privacy{
+.form-section .wrapper .privacy{
     color:#ffffff;
     padding: 20px;
     font-size: 15px;
     text-align: center;
 }
-
-
-.form-info .last-info{
- 
-    position: absolute;
-    bottom: 100px;
-    left: 140px;
-    color:#3b3a38;
-
-}
-
-
-
-
 /* form section ends here */
     
     
@@ -525,93 +520,97 @@ body {
 
 
 /* form section css starts from here */
-.form-info{
+.form-about{
  
-    background-image: url(images/body_bg.jpg);
+    background-image: url('images/body_bg.jpg');
     background-repeat: no-repeat;
-    height: 360px;
-    background-size: cover;  
+    height: 450px;
+    background-size: cover;
+  
   }
   
-  .form-info .header{
+  .form-about .header{
     position: absolute;
-    top: 0px;
-    left: 55px;  
+    top: 0;
+    left: 85px;
+}
+  
+  
+  
+  .form-about .header h5{
+    
+      color: #3e423f;
+      font-size: 25px;
+        
   }
   
+  .form-about .last-info{
+     
+    position: absolute;
+    top: 420px;
+    left: 25px;
+    color: #3b3a38;
+    font-size: 13px;
   
-  .form-info .header h5{
+  }
+  
+  .form-section{
+    background-image: url(images/container_bg.png);
+    background-repeat: no-repeat;
+    height: 875px;
+    width: 100%;
     
-    color: #3e423f;
-    font-size: 25px;
-        
-}
-
-
-.form-info .about-section{
   
-    margin-bottom: 10px;
-
-}
+  }
   
-  .form-info .form-section{
-  
-     background-image: url('images/container_bg.png');
-     background-repeat: no-repeat;
-     top: 0px;
-     right: 90px;
-     height: 880px;
-     width: 467px;
-     display: none;
-}
-  
-  .form-info .form-section .wrapper{
+  .form-section .wrapper{
   
       margin:-30px 11px;
   
   }
   
-  .form-info .form-section .prospect{
+  .form-section .prospect{
   
      margin: 35px 90px;
   
   }
   
-  .form-info .form-section .prospect .prospect-image {
+  .form-section .prospect .prospect-image {
     float: left;
   }
   
   
-  .form-info .form-section .prospect .prospect-image img {
-      height: 50px;
-      width: 50px;
-      margin-right:5px;   
+  .form-section .prospect .prospect-image img {
+    height: 40px;
+    width: 40px;
+    margin: 5px 5px; 
   }
   
   
-  .form-info .form-section .prospect .prospect-header {
-      float: left;
-      color: White;
-      line-height: 50px;
-      font-size: 25px;
-      margin-left: 15px
+  .form-section .prospect .prospect-header {
+    float: left;
+    color: White;
+    line-height: 50px;
+    font-size: 20px;
+    margin-left: 15px;
   }
   
   
   .form-section .wrapper .info{
-    
-      color: #ffffff;
-      font-size: 18px;
-      margin-left: 14px;
-      text-align: center;
+    color: #ffffff;
+    font-size: 17px;
+    margin-left: 14px;
+    text-align: center;
   }
+
+
   
-  .form-info .wrapper form{
+  .form-section .wrapper form{
       padding: 40px;
   }
   
   
-  .form-info .wrapper form label{
+  .form-section .wrapper form label{
   
     color: #ffffff;
     font-weight: bold;
@@ -619,7 +618,7 @@ body {
        
   }
   
-  .form-info .wrapper form input{
+  .form-section .wrapper form input{
   
     width: 337px;
     padding: 12px 20px;
@@ -627,7 +626,7 @@ body {
      
   }
   
-  .form-info .wrapper .download{
+  .form-section .wrapper .download{
   
     background-color: #3e423f;
     height: 80px;
@@ -635,43 +634,27 @@ body {
     margin-left: 50px;
   }
   
-  .form-info .wrapper .download .down-header{
+  .form-section .wrapper .download .down-header{
       float: left;
       color:#ffffff;
       padding: 20px;
       font-size: 20px;
   }
   
-  .form-info .wrapper .download .image{
+  .form-section .wrapper .download .image{
       float: left;
       padding: 20px;
   }
   
   
-  .form-info .form-section .wrapper .privacy{
+.form-section .wrapper .privacy{
       color:#ffffff;
       padding: 20px;
       font-size: 15px;
       text-align: center;
   }
-  
-  
-  .form-info .last-info{
-   
-    position: absolute;
-    left: 46px;
-    color: #3b3a38;
-    top: 345px;
-    font-size: 11px;
-    text-align: center;
-  
-  }
-  
-  
-  
-  
   /* form section ends here */
-      
+        
   
     
 /* About Section Starts From Here */
