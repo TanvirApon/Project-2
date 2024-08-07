@@ -29,6 +29,79 @@ body {
 /* Default CSS Ends Here */
 
 
+/* header starts from here */
+.post-header{
+    background-image: url('images/header_bg.png');
+    background-repeat: repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.post-header .prospect .prospect-header{
+    float: left;
+    color: #3e423f;
+    font-weight: bold;
+    line-height: 65px;
+    font-size: 35px;
+    margin-left: 15px; 
+}
+
+
+
+.post-header .prospect{
+    float: left;
+}
+
+.post-header .prospect .prospect-image{
+
+    float: left;
+}
+
+
+.post-header .prospect .side-image{
+    display: none;
+}
+
+
+.post-header .number{
+    float: left;
+    width: 200px;
+    position: absolute;
+    top: 42px;
+    right: 285px;
+}
+
+.post-header .number a{
+    text-decoration: none;
+    color: #3b3a38;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.post-header .sub-nav {
+    float: right;
+    width: 669px;
+    margin-top: -88px;
+}
+
+
+.post-header .sub-nav .nav-items li {  
+    list-style-type: none;
+}
+
+
+.post-header .sub-nav .nav-items li a {
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* header ends here */
+
+
 /* form section css starts from here */
 .form-about{
  
@@ -58,7 +131,7 @@ body {
 .form-about .last-info{
  
     position: absolute;
-    bottom: 100px;
+    bottom: 12px;
     left: 140px;
     color:#3b3a38;
 
@@ -66,13 +139,13 @@ body {
 
 .form-section{
 
-   position: absolute;
-   background-image: url('images/container_bg.png');
-   background-repeat: no-repeat;
-   top: 0px;
-   right: 90px;
-   height: 880px;
-   width: 467px;
+    position: absolute;
+    background-image: url(images/container_bg.png);
+    background-repeat: no-repeat;
+    top: 157px;
+    right: 45px;
+    height: 880px;
+    width: 467px;
 
 }
 
@@ -420,18 +493,20 @@ body {
 
 .footer{
 
- background-image: url('images/footer_alt.png');
- background-size: 100%;
- height: 20px;
+ background-image: url('images/footer.png');
+ background-repeat: repeat;
+ background-size: contain;
+
 
 }
 
 .footer .address{
-  
-    color: white;
-    margin-top: 50px;
-
+   color: #ffffff;
+   padding: 40px 0px;
+   text-align: center;
+   font-size: 12px;
 }
+
 
 
 
@@ -519,6 +594,94 @@ body {
 /* Default CSS Ends Here */
 
 
+/* header starts from here */
+.post-header{
+    background-image: url('images/header_bg.png');
+    background-repeat: repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.post-header .prospect .prospect-header{
+    float: left;
+    color: #3e423f;
+    font-weight: bold;
+    line-height: 46px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+
+.post-header .prospect{
+    float: left;
+}
+
+.post-header .prospect .prospect-image{
+
+    float: left;
+}
+
+
+.post-header .prospect .prospect-image img{
+
+      height:40px;
+      width: 40px;
+
+}
+
+.post-header .prospect .side-image{
+    float: right;
+}
+
+.post-header .prospect .side-image img{
+    height:40px;
+    width: 40px;
+}
+
+
+.post-header .number{
+    display: none;
+    /* float: left;
+    width: 200px;
+    position: absolute;
+    top: 42px;
+    right: 285px;
+ */
+}
+.post-header .number a{
+    text-decoration: none;
+    color: #3b3a38;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.post-header .sub-nav {
+    display:none;
+    /* float: right;
+    width: 669px;
+    margin-top: -88px; */
+}
+
+
+.post-header .sub-nav .nav-items li {  
+    display:none;
+}
+
+
+.post-header .sub-nav .nav-items li a {
+    display: none;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* header ends here */
+
+
 /* form section css starts from here */
 .form-about{
  
@@ -531,8 +694,8 @@ body {
   
   .form-about .header{
     position: absolute;
-    top: 0;
-    left: 85px;
+    top: 164px;
+    left: 102px;
 }
   
   
@@ -547,7 +710,7 @@ body {
   .form-about .last-info{
      
     position: absolute;
-    top: 420px;
+    top: 540px;
     left: 25px;
     color: #3b3a38;
     font-size: 13px;
@@ -557,15 +720,14 @@ body {
   .form-section{
     background-image: url(images/container_bg.png);
     background-repeat: no-repeat;
-    height: 875px;
-    width: 100%;
+    height: 772px;
+    background-size: contain;
     
-  
   }
   
   .form-section .wrapper{
   
-      margin:-30px 11px;
+    margin: -30px 0px;
   
   }
   
@@ -581,24 +743,24 @@ body {
   
   
   .form-section .prospect .prospect-image img {
-    height: 40px;
-    width: 40px;
-    margin: 5px 5px; 
+    height: 30px;
+    width: 30px;
+    margin: 5px 5px;
   }
   
   
   .form-section .prospect .prospect-header {
     float: left;
     color: White;
-    line-height: 50px;
-    font-size: 20px;
-    margin-left: 15px;
+    line-height: 40px;
+    font-size: 17px;
+    margin-left: 5px;
   }
   
   
   .form-section .wrapper .info{
     color: #ffffff;
-    font-size: 17px;
+    font-size: 14px;
     margin-left: 14px;
     text-align: center;
   }
@@ -606,7 +768,7 @@ body {
 
   
   .form-section .wrapper form{
-      padding: 40px;
+    padding: 30px;
   }
   
   
@@ -620,7 +782,7 @@ body {
   
   .form-section .wrapper form input{
   
-    width: 337px;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
      
@@ -629,32 +791,32 @@ body {
   .form-section .wrapper .download{
   
     background-color: #3e423f;
-    height: 80px;
-    width: 300px;
-    margin-left: 50px;
-  }
+    height: 67px;
+    width: 204px;
+    margin: -25px 85px;
+}
+
   
   .form-section .wrapper .download .down-header{
-      float: left;
-      color:#ffffff;
-      padding: 20px;
-      font-size: 20px;
+    float: left;
+    color: #ffffff;
+    padding: 14px;
+    font-size: 14px;
   }
   
   .form-section .wrapper .download .image{
-      float: left;
-      padding: 20px;
+    float: left;
+    padding: 3px;
   }
   
   
 .form-section .wrapper .privacy{
-      color:#ffffff;
-      padding: 20px;
-      font-size: 15px;
-      text-align: center;
-  }
+    color: #ffffff;
+    padding: 46px;
+    font-size: 14px;
+    text-align: center;
   /* form section ends here */
-        
+}      
   
     
 /* About Section Starts From Here */
@@ -890,7 +1052,21 @@ body {
 }
 
   
+.footer{
 
+    background-image: url('images/footer.png');
+    background-repeat: repeat;
+    background-size: contain;
+ 
+}
+   
+.footer .address{
+    color: #ffffff;
+    padding: 40px 0px;
+    text-align: center;
+    font-size: 12px;
+}
+   
 
   
   /* Image Section CSS ends here */
