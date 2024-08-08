@@ -37,7 +37,7 @@ body {
     position: relative;
 }
 
-.post-header .prospect .prospect-header{
+.post-header .container .prospect .prospect-header{
     float: left;
     color: #3e423f;
     font-weight: bold;
@@ -48,45 +48,48 @@ body {
 
 
 
-.post-header .prospect{
-    float: left;
-}
-
-.post-header .prospect .prospect-image{
-
+.post-header  .container .prospect{
     float: left;
 }
 
 
-.post-header .prospect .side-image{
+.post-header  .container .prospect .navbar{
+    float: left;
+}
+
+.post-header  .container .prospect .prospect-image{
+
+    float: left;
+}
+
+
+.post-header  .container .prospect .side-image{
     display: none;
 }
 
+.post-header .container .navbar{
 
-.post-header .number{
-    float: left;
-    width: 200px;
-    position: absolute;
-    top: 42px;
-    right: 285px;
+    float: right;
+    margin-bottom: 15px;
 }
 
-.post-header .number a{
+.post-header .container .navbar .number{
+
+   text-align: right;
+
+}
+
+.post-header .container .navbar .number a{
     text-decoration: none;
     color: #3b3a38;
     font-weight: bold;
-    font-size: 24px;
-}
-
-.post-header .sub-nav {
-    float: right;
-    width: 669px;
-    margin-top: -88px;
+    font-size: 34px;
 }
 
 
 .post-header .sub-nav .nav-items li {  
     list-style-type: none;
+    float: left;
 }
 
 
@@ -97,6 +100,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 18px;
 }
 
 /* header ends here */
@@ -115,9 +119,9 @@ body {
 
 .form-about .header{
     position: absolute;
-    top: 200px;
+    top: 100px;
     left: 200px;
-
+    width: 590px;
 }
 
 
@@ -125,15 +129,17 @@ body {
   
     color: #3e423f;
     font-size: 25px;
+    font-size: 45px;
+    text-align: left;
       
 }
 
 .form-about .last-info{
- 
+   
     position: absolute;
-    bottom: 12px;
-    left: 140px;
-    color:#3b3a38;
+    bottom: 40px;
+    left: 195px;
+    color: #3b3a38;
 
 }
 
@@ -142,8 +148,8 @@ body {
     position: absolute;
     background-image: url(images/container_bg.png);
     background-repeat: no-repeat;
-    top: 157px;
-    right: 45px;
+    top: 0px;
+    right: 127px;
     height: 880px;
     width: 467px;
 
@@ -151,8 +157,7 @@ body {
 
 .form-section .wrapper{
 
-    margin:-30px 11px;
-
+    
 }
 
 .form-section .prospect{
@@ -308,12 +313,13 @@ body {
 }
     
 .wrapper .card .header{
-    
     color: white;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 20px;
     margin-top: 15px;
+    text-transform: uppercase;
+
 }
       
 .wrapper .card .content{
@@ -400,9 +406,10 @@ body {
     
 
 .client-card .card .place_name{
-    color:#6eaa43;
-    font-weight:bold;
+    color: #6eaa43;
+    font-weight: bold;
     font-size: 20px;
+    text-transform: uppercase;
 }
     
     
