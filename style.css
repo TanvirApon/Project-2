@@ -71,6 +71,7 @@ body {
 
     float: right;
     margin-bottom: 15px;
+    width: 560px;
 }
 
 .post-header .container .navbar .number{
@@ -148,18 +149,13 @@ body {
     position: absolute;
     background-image: url(images/container_bg.png);
     background-repeat: no-repeat;
-    top: 0px;
-    right: 127px;
+    top: 160px;
+    right: 140px;
     height: 880px;
     width: 467px;
     padding: 0px 50px;
-
 }
 
-.form-section .wrapper{
-
-    
-}
 
 .form-section .prospect{
 
@@ -609,10 +605,6 @@ body {
 
 
 
-.post-header .prospect{
-    float: left;
-}
-
 .post-header .prospect .prospect-image{
 
     float: left;
@@ -678,141 +670,133 @@ body {
 /* header ends here */
 
 
-/* form section css starts from here */
+/* form section css starts from here  */
 .form-about{
  
-    background-image: url('images/body_bg.jpg');
+    background-image: url(images/body_bg.jpg);
     background-repeat: no-repeat;
-    height: 450px;
+    height: 400px;
     background-size: cover;
-  
-  }
-  
-  .form-about .header{
-    position: absolute;
-    top: 164px;
-    left: 102px;
+    position: relative;
 }
-  
-  
-  
-  .form-about .header h5{
-    
-      color: #3e423f;
-      font-size: 25px;
-        
-  }
-  
-  .form-about .last-info{
-     
+
+.form-about .header{
     position: absolute;
-    top: 540px;
-    left: 25px;
+    top: 40px;
+    left: 95px;
+}
+
+
+.form-about .header h5{
+  
+    color: #3e423f;
+    font-size: 21px;   
+}
+
+.form-about .last-info{
+   
+    position: absolute;
+    bottom: 8px;
+    left: 45px;
     color: #3b3a38;
-    font-size: 13px;
-  
-  }
-  
-  .form-section{
+    font-size: 12px;
+
+}
+
+.form-section{
     background-image: url(images/container_bg.png);
     background-repeat: no-repeat;
-    height: 772px;
-    background-size: contain;
+    background-size: cover;
+    padding: 4px 17px;
     
-  }
-  
-  .form-section .wrapper{
-  
-    margin: -30px 0px;
-  
-  }
-  
-  .form-section .prospect{
-  
-     margin: 35px 90px;
-  
-  }
-  
-  .form-section .prospect .prospect-image {
-    float: left;
-  }
-  
-  
-  .form-section .prospect .prospect-image img {
-    height: 30px;
-    width: 30px;
-    margin: 5px 5px;
-  }
-  
-  
-  .form-section .prospect .prospect-header {
-    float: left;
-    color: White;
-    line-height: 40px;
-    font-size: 17px;
-    margin-left: 5px;
-  }
-  
-  
-  .form-section .wrapper .info{
-    color: #ffffff;
-    font-size: 14px;
-    margin-left: 14px;
-    text-align: center;
-  }
 
-
-  
-  .form-section .wrapper form{
-    padding: 30px;
-  }
-  
-  
-  .form-section .wrapper form label{
-  
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 18px; 
-       
-  }
-  
-  .form-section .wrapper form input{
-  
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-     
-  }
-  
-  .form-section .wrapper .download{
-  
-    background-color: #3e423f;
-    height: 67px;
-    width: 204px;
-    margin: -25px 85px;
 }
 
+
+
+.form-section .prospect{
+
+    margin: 10px 20px;
+
+}
+
+.form-section .prospect .prospect-image {
+  float: left;
+}
+
+
+.form-section .prospect .prospect-image img {
+    height: 50px;
+    width: 50px;
+    margin-right:5px;   
+}
+
+
+.form-section .prospect .prospect-header {
+    float: left;
+    color: White;
+    line-height: 50px;
+    font-size: 25px;
+    margin-left: 15px
+}
+
+
+.form-section .wrapper .info{
   
-  .form-section .wrapper .download .down-header{
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form-section .wrapper form{
+    padding: 40px;
+}
+
+
+.form-section .wrapper form label{
+
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px; 
+     
+}
+
+.form-section .wrapper form input{
+
+    width: 312px;
+    padding: 10px 18px;
+    margin: 6px 0;
+}
+
+.form-section .wrapper .download{
+
+  background-color: #3e423f;
+  /* height: 80px; */
+  width: 300px;
+  margin: 0px 43px;
+}
+
+.form-section .wrapper .download .down-header{
     float: left;
     color: #ffffff;
-    padding: 14px;
-    font-size: 14px;
-  }
-  
-  .form-section .wrapper .download .image{
+    padding: 20px;
+    font-size: 30px;
+    width: 200px;
+}
+
+.form-section .wrapper .download .image{
     float: left;
-    padding: 3px;
-  }
-  
-  
+    padding: 20px;
+}
+
+
 .form-section .wrapper .privacy{
     color: #ffffff;
-    padding: 46px;
-    font-size: 14px;
+    padding: 23px 78px;
+    font-size: 16px;
     text-align: center;
-  /* form section ends here */
-}      
+}
+/* form section ends here */
   
     
 /* About Section Starts From Here */
