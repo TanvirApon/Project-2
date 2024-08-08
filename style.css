@@ -152,6 +152,7 @@ body {
     right: 127px;
     height: 880px;
     width: 467px;
+    padding: 0px 50px;
 
 }
 
@@ -162,7 +163,7 @@ body {
 
 .form-section .prospect{
 
-   margin: 35px 90px;
+    margin: 10px 20px;
 
 }
 
@@ -190,8 +191,7 @@ body {
 .form-section .wrapper .info{
   
     color: #ffffff;
-    font-size: 18px;
-    margin-left: 14px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -210,25 +210,25 @@ body {
 
 .form-section .wrapper form input{
 
-  width: 337px;
-  padding: 12px 20px;
-  margin: 8px 0;
-   
+    width: 312px;
+    padding: 10px 18px;
+    margin: 6px 0;
 }
 
 .form-section .wrapper .download{
 
   background-color: #3e423f;
-  height: 80px;
+  /* height: 80px; */
   width: 300px;
-  margin-left: 50px;
+  margin: 0px 43px;
 }
 
 .form-section .wrapper .download .down-header{
     float: left;
-    color:#ffffff;
+    color: #ffffff;
     padding: 20px;
-    font-size: 20px;
+    font-size: 30px;
+    width: 200px;
 }
 
 .form-section .wrapper .download .image{
@@ -238,9 +238,9 @@ body {
 
 
 .form-section .wrapper .privacy{
-    color:#ffffff;
-    padding: 20px;
-    font-size: 15px;
+    color: #ffffff;
+    padding: 23px 78px;
+    font-size: 16px;
     text-align: center;
 }
 /* form section ends here */
@@ -334,13 +334,6 @@ body {
     
     
 /* Client Section CSS Starts From Here */
-
-.client{
-
-   margin-bottom: 200px;
-
-
-}
 .client  .client-header{
     
     margin-bottom: 80px;
@@ -392,7 +385,6 @@ body {
     
     float: left;
     width: 33.33%;
-    height: 320px;
     text-align: center;
     padding: 0px 30px;
 
@@ -429,9 +421,8 @@ body {
 .client-card .card .content{
         
     font-size: 20px;
-    margin-bottom: 75px;
-    height: 100px;
-
+    margin-bottom: 14px;
+    height: 150px;
 }
 
 
@@ -446,12 +437,12 @@ body {
 
 .image-section{
 
-    margin-bottom: -44px;
+    height: 240px;
 }
 
 .image-section .image-card{ 
-    float:left;
-    margin: 55px -20px;
+    float: left;
+    margin: 50px 10px;
 }
 
 
@@ -462,19 +453,19 @@ body {
 
 
 .image-section .grey-image{
-   float:right;
-   background-image:url('images/container_bg_alt.png');
-   background-repeat: no-repeat;
-   height: 200px;
-   width: 500px;
-   position:relative;   
+    float: right;
+    background-image: url(images/container_bg_alt.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 460px;
+    position: relative;
 }
 
 .image-section .grey-image .grey-inside{
  
     position: absolute;
-    top: 140px;
-    left: 95px; 
+    top: 100px;
+    left: 115px;
 }
 
 
@@ -482,16 +473,14 @@ body {
     float: left;
     color:#ffffff;
     font-weight: bold;
-    font-size: 22px; 
+    font-size: 29px;
+    width: 180px;
 }
 
 
 .image-section .grey-image .grey-inside .image{
 
     float: right;
-    margin-left: 50px;
-    margin-top: -10px;
-
 }
 
 /* Image Section CSS ends here */
@@ -511,7 +500,7 @@ body {
    color: #ffffff;
    padding: 40px 0px;
    text-align: center;
-   font-size: 12px;
+   font-size: 16px;
 }
 
 
