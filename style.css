@@ -50,7 +50,7 @@ body {
 
 .post-header  .container .prospect{
     float: left;
-    padding: 20px;
+    padding: 30px;
 }
 
 
@@ -116,16 +116,19 @@ body {
     background-repeat: no-repeat;
     height: 880px;
     background-size:cover;
-    position:relative;
+   
 
+}
+
+.form-about .container{
+    position: relative;
 }
 
 .form-about .container .title-section{
 
     float: left;
     padding: 40px;
-    width: 60%;
-
+    width: 60%
 }
 
 
@@ -143,7 +146,7 @@ body {
     text-align: left;
     position: absolute;
     bottom: 56px;
-    left: 130px;
+    left: 50px;
 }
 
 
@@ -159,7 +162,7 @@ body {
 }
 
 .form-section .wrapper{
-    padding: 20px 75px;
+    padding: 20px 80px;
 }
 
 .form-section .wrapper .prospect{
@@ -193,12 +196,12 @@ body {
     color: #ffffff;
     font-size: 17px;
     text-align: center;
-    margin-bottom: 10px;
+    padding: 10px 17px 15px 0px;
 }
 
 .form-section .wrapper form{
 
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 
@@ -247,10 +250,14 @@ body {
     text-align: center;
 }
 
-
-
-
 /* form-about section ends here */
+
+
+.mobile-form{
+
+    display: none;
+}
+
 
     
 /* About Section Starts From Here */
@@ -263,6 +270,7 @@ body {
 
     padding: 40px;
 }
+
     
 .about .about-inside .about-header{
     margin-bottom: 10px;
@@ -301,7 +309,10 @@ body {
     
 /* About Card CSS Starts From Here */
     
+.about .wrapper{
 
+    margin:0px -20px  ;
+}
     
 .wrapper .card{
     
@@ -454,13 +465,14 @@ body {
 
 .image-section .image-card{ 
     float: left;
-    margin: 50px 10px;
+    margin: 70px -24px;
+    width: 60%;
 }
 
 
 .image-section .image-card .image{
     float:left;
-    padding: 0px 20px;
+    padding: 0px 24px;
 }
 
 
@@ -469,7 +481,7 @@ body {
     background-image: url(images/container_bg_alt.png);
     background-repeat: no-repeat;
     height: 200px;
-    width: 460px;
+    width: 40%;
     position: relative;
 }
 
@@ -618,6 +630,9 @@ body {
     margin-left: 10px;
 }
 
+.post-header .prospect{
+    padding: 30px;
+}
 
 
 .post-header .prospect .prospect-image{
@@ -628,8 +643,8 @@ body {
 
 .post-header .prospect .prospect-image img{
 
-      height:40px;
-      width: 40px;
+    height:40px;
+    width: 40px;
 
 }
 
@@ -652,7 +667,8 @@ body {
     right: 285px;
  */
 }
-.post-header .number a{
+.post-header .navbar a{
+    display: none;
     text-decoration: none;
     color: #3b3a38;
     font-weight: bold;
@@ -686,24 +702,25 @@ body {
 
 
 /* form-about section starts from here */
+
 .form-about{
 
     background-image: url('images/body_bg.jpg');
     background-repeat: no-repeat;
     height: 400px;
     background-size:cover;
+   
 
+}
+
+.form-about .container{
+    position: relative;
 }
 
 .form-about .container .title-section{
 
-   
-}
-
-.form-about .container .title-section .header{
-
-    width: 298px;
-    margin-bottom: 240px;
+    float: left;
+    padding: 40px;
 
 }
 
@@ -711,47 +728,54 @@ body {
 .form-about .container .title-section .header h5{
 
     color: #3e423f;
-    font-size: 21px;  
+    font-size: 24px;
     text-align: left;
 }
 
-.form-about .container .title-section .last-info{
+.form-about .container .last-info{
 
     color: #3e423f;
     text-align: left;
+    position: absolute;
+    top: 365px;
+    left: 48px;
+    font-size: 11px;
+}
+
+.form-section{
+    display: none;
 }
 
 
+.mobile-form {
 
-.form-section{
-
-    float: right;
     background-image: url(images/container_bg.png);
     background-repeat: no-repeat;
     height: 880px;
     width: 467px;
     padding: 0px 50px;
+    margin-bottom: 30px;
 }
 
-.form-section .prospect{
+.mobile-form .prospect{
 
     margin: 20px 40px;
 
 }
 
-.form-section .prospect .prospect-image {
+.mobile-form .prospect .prospect-image {
   float: left;
 }
 
 
-.form-section .prospect .prospect-image img {
+.mobile-form .prospect .prospect-image img {
     height: 50px;
     width: 50px;
     margin-right:5px;   
 }
 
 
-.form-section .prospect .prospect-header {
+.mobile-form .prospect .prospect-header {
     float: left;
     color: White;
     line-height: 50px;
@@ -760,19 +784,19 @@ body {
 }
 
 
-.form-section .wrapper .info{
+.mobile-form .wrapper .info{
   
     color: #ffffff;
     font-size: 16px;
     text-align: center;
 }
 
-.form-section .wrapper form{
+.mobile-form .wrapper form{
     padding: 40px;
 }
 
 
-.form-section .wrapper form label{
+.mobile-form  .wrapper form label{
 
   color: #ffffff;
   font-weight: bold;
@@ -780,7 +804,7 @@ body {
      
 }
 
-.form-section .wrapper form input{
+.mobile-form  .wrapper form input{
 
     width: 100%;
     padding: 15px 20px;
@@ -788,7 +812,7 @@ body {
 }
 
 
-.form-section .wrapper .download{
+.mobile-form .wrapper .download{
 
   background-color: #3e423f;
   /* height: 80px; */
@@ -796,7 +820,7 @@ body {
   margin: 0px 43px;
 }
 
-.form-section .wrapper .download .down-header{
+.mobile-form  .wrapper .download .down-header{
     float: left;
     color: #ffffff;
     padding: 20px;
@@ -804,13 +828,13 @@ body {
     width: 200px;
 }
 
-.form-section .wrapper .download .image{
+.mobile-form .wrapper .download .image{
     float: left;
     padding: 25px;
 }
 
 
-.form-section .wrapper .privacy{
+.mobile-form  .wrapper .privacy{
     color: #ffffff;
     padding: 23px 78px;
     font-size: 16px;
@@ -836,13 +860,15 @@ body {
     float: left;
     color: White;
     font-size: 30px;
+   
        
 }
     
 .about .about-inside .about-header .prospect{
     
     float: right;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;  
+    padding:10px;  
 }
     
 .about .about-inside .about-header .prospect .prospect-image{
@@ -865,6 +891,7 @@ body {
 
 .wrapper {
     width: 100%;
+    padding: 40px
 }
 
 .wrapper .card {
