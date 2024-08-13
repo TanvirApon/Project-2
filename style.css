@@ -42,7 +42,7 @@ body {
     color: #3e423f;
     font-weight: bold;
     line-height: 65px;
-    font-size: 35px;
+    font-size: 42px;
     margin-left: 15px; 
 }
 
@@ -264,12 +264,12 @@ body {
 .about{
     background-color:#6eaa43;
     margin-bottom: 20px;
+    padding: 20px 40px 30px;
 }
 
 .about .about-inside {
-
-    padding: 40px;
-}
+    padding:40px;
+} 
 
     
 .about .about-inside .about-header{
@@ -753,7 +753,7 @@ body {
     background-image: url(images/container_bg.png);
     background-repeat: no-repeat;
     height: 710px;
-    background-size: contain;
+    background-size: 100% 100%;
   
 }
 
@@ -859,16 +859,19 @@ body {
        
 }
     
+.about .about-inside .about-header{
+    padding: 15px;
+}
     
     
 .about .about-inside .about-header .header{
     
     float: left;
     color: White;
-    font-size: 30px;
-   
-       
+    font-size: 30px; 
+    line-height: 50px;   
 }
+
     
 .about .about-inside .about-header .prospect{
     
@@ -897,7 +900,7 @@ body {
 
 .wrapper {
     width: 100%;
-    padding: 40px
+    padding: 0px 40px;
 }
 
 .wrapper .card {
@@ -926,7 +929,7 @@ body {
     
     color: white;
     font-size: 16px;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
       
 }
     
@@ -941,6 +944,7 @@ body {
 .client  .client-header{
    
     margin-bottom: 40px;
+    padding: 20px;
 } 
     
 .client .client-header .header{
@@ -977,14 +981,14 @@ body {
     
 .client-card{
     
-    margin:0px -30px;
+    /* margin:0px -30px; */
 }
     
     
 .client-card .card{
     
     text-align: center;
-    padding: 0px 30px;
+    padding: 0px 40px;
 }
     
     
@@ -1027,46 +1031,33 @@ body {
 
 /* Image Section CSS starts from here */
 
-.image-section{
-    padding: 0px;
-    width: 100%;
-}
 
 
-
-.image-section .image-card{ 
-    float: left;
-    margin: -90px 40px;
-}
-  
-  
 .image-section .image-card .image{
-    float: left;
-    padding: 0 1px;
+
+    float:left;
+    padding: 0px 11px;
 }
 
 .image-section .image-card .image img{
 
-    height: 60px;
+    height: 70px;
     width: 70px;
-    
 }
-  
-  
+
+
 .image-section .grey-image{
-    margin-top: 100px;
-    background-image:url('images/container_bg_alt.png');
+    background-image: url(images/container_bg_alt.png);
     background-repeat: no-repeat;
     height: 200px;
-    width: 100%;
-    position:relative;  
-    background-size: 100%;
+    position: relative;
+    background-size: cover;
 }
-  
+
 .image-section .grey-image .grey-inside{
  
     position: absolute;
-    top: 95px;
+    top: 100px;
     left: 100px;
 }
 
@@ -1075,17 +1066,17 @@ body {
     float: left;
     color:#ffffff;
     font-weight: bold;
-    font-size: 14px; 
+    font-size: 29px;
+    width: 180px;
 }
 
 
 .image-section .grey-image .grey-inside .image{
 
     float: right;
-    margin-left: 50px;
-    margin-top: -10px;
-
 }
+
+/* Image Section CSS ends here */
 
   
 .footer{
@@ -1098,8 +1089,8 @@ body {
    
 .footer .address{
     color: #ffffff;
-    padding: 40px 0px;
-    text-align: left;
+    padding: 40px 17px;
+    text-align: center;
     font-size: 12px;
 }
    
