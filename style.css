@@ -39,9 +39,9 @@ body {
 
 .post-header .container .prospect .prospect-header{
     float: left;
-    color: #3e423f;
-    font-weight: bold;
-    line-height: 65px;
+    color: #1a1d1b;
+    /* font-weight: bold; */
+    line-height: 76px;
     font-size: 42px;
     margin-left: 15px; 
 }
@@ -127,7 +127,7 @@ body {
 .form-about .container .title-section{
 
     float: left;
-    padding: 40px;
+    padding: 45px 20px;
     width: 60%
 }
 
@@ -135,8 +135,7 @@ body {
 .form-about .container .title-section .header h5{
 
     color: #3e423f;
-    font-size: 25px;
-    font-size: 45px;
+    font-size: 54px;
     text-align: left;
 }
 
@@ -236,6 +235,7 @@ body {
     padding: 20px;
     font-size: 30px;
     width: 200px;
+    text-transform: uppercase;
 }
 
 .form-section .wrapper .download .image{
@@ -284,7 +284,8 @@ body {
     
 .about .about-inside .about-header .prospect{
     float: right;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
+    padding: 0px 74px;
 }
     
 .about .about-inside .about-header .prospect .prospect-image{
@@ -371,7 +372,8 @@ body {
 .client .client-header .prospect{
 
     float: right;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;   
+    padding:0px 74px; 
 }
     
 .client .client-header .prospect .prospect-image{
@@ -390,7 +392,7 @@ body {
 .client .client-header .prospect .prospect-header {
     
     float: left;
-    color: #3e423f;
+    color: #0d0f0e;
     line-height: 50px;
     font-size: 25px;
     margin-left: 15px;
@@ -399,7 +401,7 @@ body {
     
 .client-card{
     
-    margin:0px -30px;
+    margin:0px -40px;
 }
     
     
@@ -408,7 +410,7 @@ body {
     float: left;
     width: 33.33%;
     text-align: center;
-    padding: 0px 30px;
+    padding: 0px 40px;
 
 }
         
@@ -443,8 +445,9 @@ body {
 .client-card .card .content{
         
     font-size: 20px;
-    margin-bottom: 14px;
+    margin-bottom: 80px;
     height: 150px;
+    padding: 10px 16px;
 }
 
 
@@ -488,8 +491,8 @@ body {
 .image-section .grey-image .grey-inside{
  
     position: absolute;
-    top: 100px;
-    left: 115px;
+    top: 110px;
+    left: 100px;
 }
 
 
@@ -499,13 +502,16 @@ body {
     font-weight: bold;
     font-size: 29px;
     width: 180px;
+    text-transform: uppercase;
 }
 
 
 .image-section .grey-image .grey-inside .image{
 
     float: right;
+    padding: 0px 15px;
 }
+
 
 /* Image Section CSS ends here */
 
