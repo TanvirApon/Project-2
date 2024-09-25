@@ -311,18 +311,14 @@ body {
 /* Client Section CSS Ends Here */
 
 /* Image Section CSS starts from here */
-.image-section{
-    height: 240px;
-    padding: 40px;
-}
 .image-section .image-card{ 
     float: left;
-    margin: 70px -24px;
+    margin: 40px 0px 0px 0px;
     width: 60%;
 }
 .image-section .image-card .image{
     float:left;
-    padding: 0px 24px;
+    padding: 0px 30px;
 }
 .image-section .grey-image{
     float: right;
